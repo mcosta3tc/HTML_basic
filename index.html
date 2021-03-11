@@ -2,112 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Cheat Sheet</title>
 </head>
 <body>
 
-<!-- Semantic Tags -->
-<h1>Blog Exemple with Semantics Tag</h1>
-<a href="blog.html" target="_blank">Show me more about</a>
+<header>
+    <h1>Different HTML5 Elements</h1>
+</header>
 <hr>
-
-<!-- Heading -->
-<h1>Titles</h1>
-<h1>Title h1</h1>
-<h2>Subtitle h2</h2>
-<h3>Subtitle h3</h3>
-<h4>Subtitle h4</h4>
-<h5>Subtitle h5</h5>
-<h6>Subtitle h6</h6>
-<hr>
-
-<!-- Paragraph -->
-<h1>Paragraph and links</h1>
-<p>
-    Lorem ipsum dolor sit <strong>azdazd</strong> amet, consectetur adipisicing elit. <em>dzad</em> Officia, soluta.
-</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur <a href="https://google.fr" target="_blank">consequuntur </a>et
-    inventore minus obcaecati porro quae recusandae repudiandae vel voluptatum?</p>
-<hr>
-
-<!-- Lists -->
-<h1>Lists</h1>
-<ul>
-    <li>List Item 1</li>
-    <li>List Item 2</li>
-    <li>List Item 3</li>
-</ul>
-
-<ol>
-    <li>List 1</li>
-    <li>List 2</li>
-    <li>List 3</li>
-</ol>
-<hr>
-
-<!-- Table -->
-<h1>Table</h1>
-<table>
-    <thead>
-    <tr>
-        <th>Col1</th>
-        <th>Col2</th>
-        <th>Col3</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Col1</td>
-        <td>Col2</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td>Col3</td>
-    </tr>
-    </tbody>
-</table>
-<hr>
-
-<h1>Forms</h1>
-<!-- Forms -->
-<form action="exemple.php" method="POST">
-    <div>
-        <label>First Name</label>
-        <input type="text" name="name-to-grab-the-data-for-php-file" placeholder="Enter Name">
-    </div>
-    <br>
-    <div>
-        <label>Email</label>
-        <input type="email" name="name-to-grab-the-data-for-php-file">
-    </div>
-    <br>
-    <div>
-        <label>Message</label>
-        <textarea name="name-to-grab-the-data-for-php-file" cols="30" rows="10"></textarea>
-    </div>
-    <br>
-    <div>
-        <label>Gender</label>
-        <select name="name-to-grab-the-data-for-php-file">
-            <option value="male">Male</option>
-            <option value="Female">Female</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label>Age:</label>
-        <input type="number" name="name-to-grab-the-data-for-php-file" value="20">
-    </div>
-    <br>
-    <div>
-        <label>Birthday:</label>
-        <input type="date" name="name-to-grab-the-data-for-php-file">
-    </div>
-    <br>
-    <input type="submit" name="name-to-grab-the-data-for-php-file" value="Text of the button">
-</form>
+<nav>
+    <ul>
+        <li>
+            <!-- Blog Example -->
+            <a href="blog/blog.html" target="_blank">Blog Example with Semantics Tag</a>
+        </li>
+        <li>
+            <!-- Titles -->
+            <a href="basic/title.html" target="_blank">Titles</a>
+        </li>
+        <li>
+            <!-- Paragraph and Link -->
+            <a href="basic/paragraph.html" target="_blank">Paragraph and links</a>
+        </li>
+        <li>
+            <!-- Lists -->
+            <a href="basic/lists.html" target="_blank">Lists</a>
+        </li>
+        <li>
+            <!-- Table -->
+            <a href="basic/table.html">Table</a>
+        </li>
+        <li>
+            <!-- Forms -->
+            <a href="forms/forms.html">Forms</a>
+        </li>
+    </ul>
+</nav>
 <hr>
 
 <!-- Button -->
@@ -117,8 +48,8 @@
 <!-- Image -->
 <h1>Image</h1>
 <h2>Intern linked Image</h2>
-<a href="eso1644bsmall__w770.jpg">
-    <img src="eso1644bsmall__w770.jpg" alt="black hole">
+<a href="media/eso1644bsmall__w770.jpg">
+    <img src="media/eso1644bsmall__w770.jpg" alt="black hole">
 </a>
 <h2>External Image (Link) resized by attributes</h2>
 <img src="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg" alt="baby Yoda" width="400">
